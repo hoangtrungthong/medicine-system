@@ -4,10 +4,13 @@ import * as VueRouter from 'vue-router'
 import locale from 'element-plus/lib/locale/lang/en'
 import ElementUI from 'element-plus'
 import VueTimeago from 'vue-timeago'
+import axios from 'axios';
+import VueAxios from 'vue-axios';
 import store from './store'
 import routers from './routes'
 
 Vue.use(VueRouter)
+Vue.use(VueAxios, axios);
 Vue.use(ElementUI, { locale })
 Vue.use(VueTimeago, {
   name: 'Timeago',
