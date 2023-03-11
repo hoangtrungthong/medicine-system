@@ -1,10 +1,10 @@
-import * as Vue from 'vue'
-import * as Vuex from 'vuex'
+// import * as Vue from 'vue'
+// import * as Vuex from 'vuex'
 
-Vue.use(Vuex)
+// Vue.use(Vuex)
 
-const store = {
-  modules: {},
-}
+// const store = {
+//   modules: {},
+// }
 
-export default new Vuex.Store(store)
+// export default new Vuex.Store(store)
